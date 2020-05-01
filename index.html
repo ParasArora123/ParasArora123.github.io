@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta charset="utf-8">
+  	<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="top-section"> 
+
+		<!-- This following div (along with its CSS and javascript) for class "menu" and was created based on the navigation tutorial on https://www.w3schools.com/howto/howto_js_sidenav.com. The overall implementation & idea for the menu bar is taken directly from this tutorial. I wanted to add this feature, but since I followed their tutorial + implementation, I will not count this as one of my three features (which I created on my own).--> 
+		<div class="menu" id="overall-menu">
+			<a href="javascript:void(0)" id="close-menu" onclick="closeMenu()">&times;</a>
+			<a class="menu-text" href="index.html"><center>Home</center></a>
+			<a class="menu-text" href="donate.html"><center>Donate</center></a>
+			<a class="menu-text" href="faq.html"><center>FAQ</center></a>
+		</div>
+
+		<div id="menu-bars" onclick="openMenu()">
+			<div class="menubar"></div>
+			<div class="menubar"></div>
+			<div class="menubar"></div>
+		</div>
+
+
+		<img src="assets/imgs/headImg.png"/>
+
+		<div class="mid-text">
+			<div id="action-text"><center>WE ARE IN THE MIDST OF A DEADLY PANDEMIC</center></div>
+			<div id="small-action-text"><center>We are in dire need of <span class="highlight">personal protective equipment</span> and<br>monetary donations - we will accept anything</center></div>
+		</div>
+	</div> 
+
+	<div class="equipment-section">
+		<div class="row-1">
+			<div id="donate-equipment"><span style="color:#FFD130">Donate</span> <span style="color:#C7C874">your equipment</span></div>
+
+			<div id="donate-equipment-text">Your donation will save lives! Please consider donating anything you can, we will accept both small and large donations and distribute them appropriately to your selected location. Although we are in need of N95-repirators, we ask you to think beyond just masks. Protective goggles, gloves, face-shields, wipes, and disinfectants are examples of other donations people suffering around the world would greatly benefit from. <br><br>We also guarantee your donation will not be lost or misused. You will be in direct contact with the organization recieving your donation who will confirm its safe delivery.   
+			</div>
+
+			<a href="donate.html" id="donate-button">DONATE EQUIPMENT</a>
+		</div>
+
+		<div class="row-2">
+			<img src="assets/imgs/gloves.png">
+		</div>
+
+	</div>
+
+	<div class="location-section">
+		<div class="row-1">
+			<div id="donate-equipment"><span style="color:#FFD130">Pick</span> <span style="color:#C7C874">a donation location</span></div>
+
+			<div id="donate-equipment-text">Unlike other organizations, we give you the unique opportunity to choose which location you want to see your donation be used at. We believe no matter what organization you choose, your donation will save lives. In some cases, hospitals will reach out to you describing exactly how your contribution helped and we hope you continue to stay in contact and contribute to those suffering around the world in whatever way possible. <br><br>To make your donation to a specified location, please click the button below and fill out the form. We appreciate your contribution.  
+			</div>
+
+			<a href="donate.html" id="donate-button">PICK A LOCATION</a>
+		</div>
+
+		<div class="row-2">
+			<img src="assets/imgs/location.png">
+		</div>
+
+	</div>
+
+	<div class="understanding-process">
+		<div id="donate-equipment"><span style="color:#FFD130">Understanding</span> <span style="color:#C7C874">the Process</span></div>
+	</div>
+
+	<div class="process">
+		<div class="process-box"> 
+			<img src="assets/imgs/locationIcon.png">
+			<div class="process-title">PICK LOCATION</div>
+			<div class="process-text"><center>The first step in the process is to pick a location based on the options provided in the form. Please navigate to the donation page in order to see what options we have listed as being available to recieve a contribution.</center></div>
+			<div class="see-more">SEE MORE   <span>&#10230;</span></div>
+		</div>
+		<div class="process-box">
+			<img src="assets/imgs/formIcon.png">
+			<div class="process-title">ADD YOUR INFO</div>
+			<div class="process-text"><center>Once you have decided what location you will be making your donation too, please fill out the form with your information. Your information will only be used for the purposes of the donation and is not stored permanently in our systems.</center></div> 
+			<div class="see-more">SEE MORE   <span>&#10230;</span></div>
+		</div>
+		<div class="process-box"> 
+			<img src="assets/imgs/hospitalIcon.png">
+			<div class="process-title">DONATE</div>
+			<div class="process-text"><center><br>After filling out your info, you will recieve an email confirming your donation and putting you in contact with your chosen organization. The location you choose to donate too will reach out with exact steps on how to make your donation. </center></div>
+			<div class="see-more">SEE MORE   <span>&#10230;</span></div>
+		</div>
+		<div class="process-box"> 
+			<img src="assets/imgs/messageIcon.png">
+			<div class="process-title">UPDATES</div>
+			<div class="process-text"><center>Once your donation has been delivered you will recieve a confirmation email. Although some do not participate, many organizations will keep you up to date on exactly how and where your specific donation is being put to use.</center></div>
+			<div class="see-more">SEE MORE   <span>&#10230;</span></div>
+		</div>
+	</div>
+	
+	<div class="footer-tag">Created by <span style="color:#C7C874">Paras Arora | Copyright 2020®</span></div>
+
+	<script src="assets/js/scriptIndex.js"></script>
+</body>
+</html>
